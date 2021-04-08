@@ -2,14 +2,12 @@ import Profile from './Profile';
 import Repo from './Repo';
 import Follower from './Follower';
 import Following from './Following';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 const Result = ({ userData, userRepoData, userFollowerData, userFollowingData }) => {
     const [name, setName] = useState('Repositories');
 
-    useEffect(() => {
-        setName('Repositories');
-    }, []);
+
 
     const changeToRepo = () => {
         setName('Repositories');
