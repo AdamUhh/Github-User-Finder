@@ -2,6 +2,7 @@
 
 Allows users to search for a Github Username and get their corresponding data, via Github API
 
+Todo: Make similar functionality to https://github-userfinder.netlify.app/ to train reactJS
 
 
 
