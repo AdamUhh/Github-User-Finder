@@ -7,8 +7,6 @@ import { useState } from 'react';
 const Result = ({ userData, userRepoData, userFollowerData, userFollowingData }) => {
     const [name, setName] = useState('Repositories');
 
-
-
     const changeToRepo = () => {
         setName('Repositories');
     };
